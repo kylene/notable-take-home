@@ -17,7 +17,9 @@ Gets a doctor by ID.
 Lists all appointments for a specific doctor ID. Accepts a date query param for filtering.
 
 **Sample URL with Date Query**
-`http://localhost:3000/doctors/1/appointments?date=2018-05-09`
+```
+http://localhost:3000/doctors/1/appointments?date=2018-05-09
+```
 
 ### POST /appointments
 Creates an appointment from a JSON request body. Returns the created appointment ID.
